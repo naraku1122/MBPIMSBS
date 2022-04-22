@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    android:background="@color/cardview_shadow_end_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backgroundgradient"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/viewproductbarcodename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/product_barcode" />
+
+        <TextView
+            android:id="@+id/viewproductbarcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:textColor="#ffff"
+            android:layout_toEndOf="@+id/viewproductbarcodename"
+            android:text="@string/product_barcode" />
+
+        <TextView
+            android:id="@+id/viewproductnametxt"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/product_name" />
+
+        <TextView
+            android:id="@+id/viewproductname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/viewproductnametxt"
+            android:text="@string/product_name"
+            android:textColor="#ffff"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/viewproductcategoryname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/product_category"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewproductcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="45dp"
+            android:textSize="10sp"
+            android:layout_toEndOf="@+id/viewproductcategoryname"
+            android:text="@string/product_category"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/viewproductpricename"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/product_price" />
+
+        <TextView
+            android:id="@+id/viewproductprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="65dp"
+            android:textColor="#ffff"
+            android:textSize="10sp"
+            android:layout_toEndOf="@+id/viewproductpricename"
+            android:text="@string/product_price" />
+
+        <TextView
+            android:id="@+id/viewproductquantityname"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:text="@string/product_quantity" />
+
+        <TextView
+            android:id="@+id/viewproductquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="85dp"
+            android:layout_toEndOf="@+id/viewproductquantityname"
+            android:text="@string/product_quantity"
+            android:textColor="#ffff"
+            android:textSize="10sp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

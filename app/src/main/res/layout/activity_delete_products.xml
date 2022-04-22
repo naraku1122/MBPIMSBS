@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.pimsbs.ui.DeleteProductActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundgradient">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/allura"
+        android:textColor="#C1F8B0B0"
+        android:text="@string/delete_product"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/item_to_delete"
+            android:textColor="#C1F8B0B0"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewListItems"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/or_scan_barcode_to_delete_product"
+            android:textColor="#C1F8B0B0"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/barcodedelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/product_barcode"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff" />
+
+        <Button
+            android:id="@+id/buttonscandelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="@string/scan_barcode"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/deleteItemToTheDatabasebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="@string/delete_product" />
+
+    </LinearLayout>
+
+</RelativeLayout>

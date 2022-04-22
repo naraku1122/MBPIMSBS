@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Mobile-based Product Inventory Management System using Barcode Scanner</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+    <string name="username">Username(email)</string>
+    <string name="password">Password</string>
+    <string name="product_details">Product Details</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_category">Product Category</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="product_barcode">Product Barcode</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="add_product">Add Product Item</string>
+    <string name="edit_product">Edit Product Item</string>
+    <string name="delete_product">Delete Product Item</string>
+    <string name="item_to_delete">Product to Delete: (long press)</string>
+    <string name="or_scan_barcode_to_delete_product">Or scan barcode to delete product</string>
+    <string name="welcome">Welcome,</string>
+    <string name="no_of_products">No. of Products: </string>
+    <string name="total_product_sum_php">Total Product Sum: </string>
+    <string name="add_product_btn">Add Product</string>
+    <string name="delete_product_btn">Delete Product</string>
+    <string name="view_product_btn">View Product</string>
+    <string name="welcome_user">Welcome, </string>
+    <string name="edit_product_details">Edit Product Details</string>
+    <string name="search_product">Search Product</string>
+
+    <string-array name="product_item_categories">
+        <item>Animals and Pet Supplies</item>
+        <item>Apparel and Accessories</item>
+        <item>Arts and Entertainment</item>
+        <item>Baby and Toddler</item>
+        <item>Business and Industrial</item>
+        <item>Cameras and Optics</item>
+        <item>Electronics</item>
+        <item>Food, Beverages and Tobacco</item>
+        <item>Furniture</item>
+        <item>Hardware</item>
+        <item>Health and Beauty</item>
+        <item>Home and Garden</item>
+        <item>Luggage and Bags</item>
+        <item>Mature</item>
+        <item>Media</item>
+        <item>Office Supplies</item>
+        <item>Religious and Ceremonial</item>
+        <item>Software</item>
+        <item>Sporting Goods</item>
+        <item>Toys and Games</item>
+        <item>Vehicles and Parts</item>
+    </string-array>
+
+</resources>
